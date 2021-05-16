@@ -1,0 +1,13 @@
+var stringOfTds1 = document.getElementsByTagName("td");
+var exes = stringOfTds1.match("X");
+var numOfExes = exes.length;
+
+var oes = stringOfTds1.match("O");
+var numOfO = oes.length;
+
+if (numOfExes <= numOfO) {
+    x = "X";  
+}
+else {
+    x = "O";
+}
